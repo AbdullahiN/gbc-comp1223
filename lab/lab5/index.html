@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>COMP1223 - Labtest 5</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+      <meta charset="utf-8">
+      <meta name="description" content="COMP1223 LabTest 5">
+      <meta name="keywords" content="comp1223,labtest5,gblearn">
+      <meta name="author" content="Gerald D. Fangonillo">
+  </head>
+  <body>
+  <div id="wrapper">
+    <fieldset>
+    <legend>Member Information</legend>
+    <table>
+      <form action="index.html" method="post" autocomplete="on">
+        <tr>
+          <th>Username: </th>
+          <td colspan="3"><input type="text" name="username" maxlength="30" size="80" value="username" selected></td>
+          <td rowspan="4">
+            <select id="academic_field" size="6">
+              <option value="property">Property Type</option>
+              <option value="bungalow">Bungalow</option>
+              <option value="split">Split</option>
+              <option value="link">Link</option>
+              <option value="semi-detached" selected>Semi-Detached</option>
+              <option value="duplex">Duplex</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>First Name: </th>
+          <td><input type="text" name="firstname" maxlength="30" size="25" required></td>
+          <th>Last Name: </th>
+          <td><input type="text" name="lastname" maxlength="30" size="25" required></td>
+        </tr>
+        <tr>
+          <th>Street Address: </th>
+        <td colspan="3"><input type="text" name="address" maxlength="30" value="Enter your full address" size="94" required></td>
+        </tr>
+        <tr>
+          <th>Suite/ Apprt#: </th>
+          <td><input type="text" name="suite" size="20" required></td>
+          <th>City: </th>
+          <td><input type="text" name="city" maxlength="30" size="25" required></td>
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset>
+    <legend>Payment Information</legend>
+        <table>
+          <tr>
+            <th>Card Type: </th>
+            <td><label>Visa: </label><input type="radio" name="card" value="visa"></td>
+            <td><label>MasterCard: </label><input type="radio" name="card" value="mastercard"></td>
+            <td><label>American Express: </label><input type="radio" name="card" value="americanexpress" checked></td>
+          </tr>
+          <tr>
+            <th>Card Number: </th>
+            <td><input type="text" name="cardnumber" maxlength="30" value="5420" required><label>Card Number: </label></td>
+            <td><label>Expiration Date: </label>
+              <select id="expiration" size="1">
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+              </select>
+              <td><input type="text" name="year"></td>
+            </td>
+          </tr>
+          <tr>
+            <th><label>Name on Card: </label></th>
+            <td><input type="text" name="cardname" required><label>Name on Card: </label></td>
+            <th><label>CVN: </label></th>
+            <td><input type="text" name="cvn" required>&nbsp;<label>Remember: </label><input type="checkbox" name="remember" value="remember" checked></td>
+          </tr>
+        </table>
+    </fieldset>
+      <button type="reset" value="Cancel" style="background-color:red;float:right;width:100px">Cancel</button>
+      <button type="submit" value="Update" style="background-color:yellow;float:right;width:100px">Update</button>
+      </form>
+      <div id="validator"><script src="http://my.gblearn.com/js/loadscript.js"></script></div>
+    </div>
+  </body>
+</html>

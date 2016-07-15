@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>COMP1223 - Prelab 5</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+      <meta charset="utf-8">
+      <meta name="description" content="COMP1223 - Prelab 5">
+      <meta name="keywords" content="comp1223,prelab 5,gblearn">
+      <meta name="author" content="Gerald D. Fangonillo">
+  </head>
+  <body>
+  <div id="wrapper">
+    <h1>George Brown College Survey</h1>
+    <h4><a href="mailto:gerald.fangonillo@georgebrown.ca?Subject=Feedback">Email webmaster</a> | <a href="http://www.georgebrown.ca" target="_blank">George Brown College Website</a></h4>
+    <table border="0">
+    <tr>
+      <td colspan="2"><h2>Personal Information</h2></td>
+    </tr>
+      <form action="index.html" method="post" autocomplete="on">
+      <tr>
+        <th>Name:</th>
+        <td><input type="text" name="student" maxlength="28" required></td>
+      </tr>
+      <tr>
+        <th>Email:</th>
+        <td><input type="text" name="email" maxlength="28" required></td>
+      </tr>
+      <tr>
+        <th>Age:</th>
+        <td>
+          <input type="radio" name="age" value="<18"><label>&nbsp;&nbsp;< 18&nbsp;&nbsp;</label>
+          <input type="radio" name="age" value="18-25" checked><label>&nbsp;&nbsp;18-25&nbsp;&nbsp;</label>
+          <input type="radio" name="age" value="26-40"><label>&nbsp;&nbsp;26-40&nbsp;&nbsp;</label>
+          <input type="radio" name="age" value="41-65"><label>&nbsp;&nbsp;41-65&nbsp;&nbsp;</label>
+          <input type="radio" name="age" value="65+"><label>&nbsp;&nbsp;65+&nbsp;&nbsp;</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><h2>Academic Information</h2></td>
+      </tr>
+      <tr>
+        <th class="th" rowspan="3">Goals:</th>
+          <td>Check all that apply</td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" name="goals" value="AA"><label>Associate Degree</label>
+          <input type="checkbox" name="goals" value="CSU"><label>Transfer to CSU</label>
+          <input type="checkbox" name="goals" value="UC"><label>Transfer to UC</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" name="goals" value="Personal"><label>Personal Enrichment</label>
+        </td>
+      </tr>
+      <tr>
+        <th class="th" rowspan="2">Field of Study:</th>
+        <td>Select all that apply; hold CTRL when clicking to select multiple items</td>
+      <tr>
+
+        <td colspan="2">
+          <select id="academic_field" size="6">
+            <option value="ACCT">Accounting</option>
+            <option value="ASTR">Astronomy</option>
+            <option value="BUS">Business</option>
+            <option value="CHEM">Chemistry</option>
+            <option value="CIT">Computer/Information Technology</option>
+            <option value="HLTH">Health</option>
+            <option value="HIST">History</option>
+            <option value="LART">Language Arts</option>
+            <option value="MATH">Mathematics</option>
+            <option value="P-E">Physical Education</option>
+            <option value="PSYC">Psychology</option>
+            <option value="SOC">Sociology</option>
+            <option value="THEA">Theatre Arts</option>
+          </select>
+        </td>
+    </tr>
+    <tr>
+      <th class="th">Comments:</th>
+      <td colspan="2">
+      <textarea rows="5" cols="50">
+        </textarea>
+      </td>
+    </tr>
+  </table>
+    <div id="validator">
+      <button type="submit" value="Send Data">Send Data</button>
+      <button type="reset" value="Reset Form">Reset Form</button>
+    </form>
+    <br><br>
+      <script src="http://my.gblearn.com/js/loadscript.js"></script>
+  </div>
+  </body>
+</html>

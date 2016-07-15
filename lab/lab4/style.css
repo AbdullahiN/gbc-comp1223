@@ -1,0 +1,65 @@
+body{
+  background-image: linear-gradient(
+    to right,
+      lime, #0099ff
+    );
+    margin: 50px 50px 100px 100px;
+    text-align: center;
+    padding: 0;
+}
+footer{
+  background-color: red;
+  width: 95%;
+  height: 60px;
+  margin-bottom: 50px;
+  clear: both;
+}
+header{
+  background-color: red;
+  width: 95%;
+  height: 60px;
+}
+section{
+  background-color: red;
+  width: 95%;
+  height: 60px;
+}
+#sectionA{
+  background-color: blue;
+  width: 400px;
+  height: 200px;
+  float: left;
+}
+#sectionB{
+  background-color: blue;
+  width: 400px;
+  height: 200px;
+  float: right;
+  margin-right: 60px;
+}
+#sectionC{
+  background-color: blue;
+  width: 400px;
+  height: 200px;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-left: 370px;
+  clear: both;
+}
+#content{
+  background-color: yellow;
+  width: 930px;
+  height: 300px;
+  margin-left: 100px;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+#container{
+  width: 1200px;
+  min-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}

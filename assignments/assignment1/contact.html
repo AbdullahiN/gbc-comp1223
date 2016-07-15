@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+  <html lang="en-us">
+    <head>
+      <title>COMP1223 | Assignment 1</title>
+      <link href="style.css" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+        <meta name="description" content="comp1223 assignment 1">
+        <meta name="keywords" content="comp1223,assignment1,gblearn">
+        <meta name="author" content="Gerald D. Fangonillo">
+    </head>
+      <body>
+      <div id="parentDiv">
+        <div id="mainNav">
+          <table cellspacing="30">
+            <tr>
+              <td><a href="index.html">Home</a></td>
+            </tr>
+            <tr>
+              <td><a href="resume.html">Resume</a></td>
+            </tr>
+            <tr>
+              <td><a href="videos.html">Videos</a></td>
+            </tr>
+          </table>
+        </div>
+    <div id="mainNavR">
+      <table cellspacing="30">
+        <tr>
+          <td><a href="photos.html">Photos</a></td>
+        </tr>
+        <tr>
+          <td><a href="about.html">About</a></td>
+        </tr>
+        <tr>
+          <td><a href="contact.html">Contact</a></td>
+        </tr>
+        </table>
+      </div>
+        <div id="contactDiv">
+          <header id="mainHeader">
+            <h2 class="studentID">101047925 - 49654</h2>
+            <img src="images/logo.png" width="120" height="120">
+            <h1>Contact</h1>
+          </header>
+          <h2>Location</h2>
+        <div id="map"></div>
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 43.7962498, lng: -79.4274478},
+          zoom: 15
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+        <table id="contactTable" width="700">
+          <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Email</th>
+          </tr>
+          <tr>
+            <td>Gerald D. Fangonillo</td>
+            <td>Toronto, ON</td>
+            <td>gerald.fangonillo@georgebrown.ca</td>
+          </tr>
+          <tr>
+            <th colspan="3">Message</th>
+          </tr>
+        </table>
+          <textarea cols="96" rows="10"></textarea>
+        <input id="submitButton" type="submit" value="Send">
+        <footer>
+          <p>2016 &copy; Gerald D. Fangonillo. All rights reserved.</p>
+        </footer>
+      </div>
+    </div>
+    <br><br><center><script src="http://my.gblearn.com/js/loadscript.js"></script></center>
+  </body>
+</html>

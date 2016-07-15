@@ -1,0 +1,161 @@
+body{
+  background-image:
+    linear-gradient(
+      to right,
+      #dfff00,purple
+      );
+  text-align: center;
+}
+h1,p{
+  text-align: left;
+}
+header{
+  background-color: blue;
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+header h3{
+  text-align: right;
+  color: #fff;
+  padding: 3px 10px 3px 3px;
+  margin-bottom: 5px;
+}
+#parentDiv{
+  width: 1000px;
+  min-width: 1425px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#mainDiv{
+  height: 379px;
+}
+#mainDiv1{
+  background-color: yellow;
+  width: 340px;
+  height: 400px;
+  float: left;
+  clear: right;
+  margin-left: 253px;
+  padding-left: 5px;
+}
+#mainDiv2{
+  background-color: red;
+  width: 560px;
+  height: 400px;
+  float: right;
+  margin-right: 253px;
+  padding-left: 5px;
+}
+footer{
+  background-color: green;
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer h4{
+  color: #fff;
+  text-align: center;
+  padding: 3px;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 200px 300px 100px 300px;
+  border-spacing: 50px;
+}
+td{
+  background-color: inherit;
+  width: 200px;
+  height: 200px;
+  box-shadow: 1px 3px 20px #000;
+}
+td a{
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  font-variant: small-caps;
+  color: #000;
+  padding: 87px 54px 87px 54px;
+  text-decoration: none;0
+}
+td a:hover{
+  background-color: #ffad33;
+}
+/** STYLE FOR SECOND PAGE **/
+#bodyB{
+  background-image:
+    linear-gradient(
+      60deg,
+      #2542a0, #66ff33
+      );
+}
+#headerDiv{
+  background-color: #2542a0;
+  height: 40px;
+  width: 95%;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+section div{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  display: inline-block;
+}
+#sectionA{
+  background-color: #ffff44;
+  height: 250px;
+  width: 350px;
+  float: left;
+  margin-left: 36px;
+}
+section{
+  background-color: #ffff44;
+  height: 250px;
+  width: 350px;
+  float: left;
+  margin-left: 150px;
+}
+#sectionC{
+  background-color: #ffff44;
+  height: 250px;
+  width: 350px;
+  float: right;
+  margin-right: 36px;
+}
+#headerDiv2{
+  background-color: #2542a0;
+  width: 95%;
+  height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  clear: both;
+}
+article{
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+#articleA{
+  background-color: #008ad1;
+  width: 630px;
+  height: 350px;
+}
+#articleB{
+  background-color: #008ad1;
+  width: 630px;
+  height: 350px;
+}
+#footerDiv{
+  background-color: purple;
+  width: 95%;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  clear: both;
+}
